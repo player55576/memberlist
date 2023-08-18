@@ -14,8 +14,7 @@ The speed at which it converges can be heavily tuned via various knobs
 on the protocol. Node failures are detected and network partitions are partially
 tolerated by attempting to communicate to potentially dead nodes through
 multiple routes.
-*/
-package memberlist
+
 
 import (
 	"container/list"
